@@ -304,6 +304,7 @@ PRODUCT_PACKAGES += \
     OplusAppPlatform \
     OplusCamera \
     OplusExSystemService \
+    oplus-services \
     OppoGallery2 \
     PhoneManager \
     StdID \
