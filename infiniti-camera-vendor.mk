@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti-camera/proprietary/vendor/lib64/qsn3all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn3all.bin
 
 PRODUCT_PACKAGES += \
+    liboplusmmdebug \
     vendor.oplus.hardware.cameraextension-V1-ndk \
     vendor.oplus.hardware.cameraextension@1.0 \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_system \
@@ -242,6 +243,7 @@ PRODUCT_PACKAGES += \
     libapssuspend-jni.oplus \
     libarcsoft_panorama_burstcapture \
     libarcsoft_wideselfie \
+    libatlasservice \
     libbinauralrenderer_wrapper.qti \
     libbsproxy \
     libcsextimpl \
@@ -251,15 +253,23 @@ PRODUCT_PACKAGES += \
     libheytap_mcs_cipheralgo_fixed_mcs \
     libhoaeffects.qti \
     libhoaeffects_csim \
+    libiatlasservice \
+    libimmlistservice \
     libjni_burstpmk \
     libjni_wideselfie \
     libjnisingleblur_api \
     libjnistblur_api \
     liblivephoto.frc.jni \
     libmmkv_mcs_mcs \
+    libmmlistparser \
     libmpbase_system_ext \
+    libolc \
     liboplus-uah-client_system_ext \
+    liboplusHeifDecoderImpl \
     liboplus_conscrypt_jni_mcs \
+    liboplus_imageprocessing \
+    liboplus_multimedia_kernel_event \
+    libopluscfgpolicy \
     liboplusdolbyeffect_4.1 \
     liboplusgui_jni \
     liboplusheifwriter \
@@ -304,7 +314,6 @@ PRODUCT_PACKAGES += \
     OplusAppPlatform \
     OplusCamera \
     OplusExSystemService \
-    oplus-services \
     OppoGallery2 \
     PhoneManager \
     StdID \
