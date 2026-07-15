@@ -1828,6 +1828,57 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhwuiextimpl",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libhwuiextimpl.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libcutils",
+                "liblog",
+                "libnativewindow",
+                "libui",
+                "libutils",
+                "libEGL",
+                "libGLESv1_CM",
+                "libGLESv2",
+                "libGLESv3",
+                "libvulkan",
+                "libnativedisplay",
+                "libprotobuf-cpp-lite",
+                "libandroidfw",
+                "libcrypto",
+                "libsync",
+                "libhidlbase",
+                "libgui",
+                "libbinder",
+                "libharfbuzz_ng",
+                "libminikin",
+                "android.hardware.configstore-utils",
+                "android.hardware.configstore@1.0",
+                "libbinder_ndk",
+                "libactivitymanager_aidl",
+                "libostatslog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libiatlasservice",
     owner: "oneplus",
     strip: {
@@ -1973,6 +2024,63 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libdl",
                 "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpegdecoder_ext",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libjpegdecoder_ext.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libjpeg",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjpegencoder_ext",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libjpegencoder_ext.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libjpeg",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },
@@ -2144,6 +2252,62 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "liboplus_10bitHeif",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/liboplus_10bitHeif.so",
+            ],
+            shared_libs: [
+                "libpng",
+                "libz",
+                "libunwindstack",
+                "libpiex",
+                "libexpat",
+                "libharfbuzz_subset",
+                "libicu",
+                "libharfbuzz_ng",
+                "liblog",
+                "libbinder",
+                "liboplusHeifDecoderImpl",
+                "libjpeg",
+                "libcutils",
+                "libui",
+                "libgui",
+                "libutils",
+                "libjnigraphics",
+                "libnativehelper",
+                "liboplusmmdebug",
+                "libmedia",
+                "libhwui",
+                "libstagefright",
+                "libstagefright_foundation",
+                "libandroid",
+                "libEGL",
+                "libGLESv2",
+                "libvulkan",
+                "libnativewindow",
+                "libheif",
+                "libmediandk",
+                "libdng_sdk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "liboplus_conscrypt_jni_mcs",
     stem: "liboplus_conscrypt_jni",
     owner: "oneplus",
@@ -2154,6 +2318,25 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/system_ext/lib64/liboplus_conscrypt_jni.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_heifconverter",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/liboplus_heifconverter.so",
             ],
         },
     },
@@ -2192,6 +2375,25 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/system_ext/lib64/liboplus_multimedia_kernel_event.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplusavenhancements",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/liboplusavenhancements.so",
             ],
         },
     },
@@ -2321,6 +2523,25 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "liboplussfplugin_ccodec",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/liboplussfplugin_ccodec.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libortc_so.oplus",
     owner: "oneplus",
     strip: {
@@ -2421,6 +2642,40 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libdl",
                 "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libskjpegencoderextimpl",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libskjpegencoderextimpl.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "liboplus_imageprocessing",
+                "libjpeg",
+                "libimmlistservice",
+                "libatlasservice",
+                "libbinder",
+                "liboplusmmdebug",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },
@@ -2953,6 +3208,35 @@ cc_prebuilt_library_shared {
                 "libc++_shared",
                 "libdl",
                 "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_cfbt",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/liboplus_cfbt.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
             ],
         },
     },

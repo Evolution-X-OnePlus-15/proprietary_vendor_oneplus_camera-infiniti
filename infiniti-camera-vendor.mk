@@ -253,12 +253,15 @@ PRODUCT_PACKAGES += \
     libheytap_mcs_cipheralgo_fixed_mcs \
     libhoaeffects.qti \
     libhoaeffects_csim \
+    libhwuiextimpl \
     libiatlasservice \
     libimmlistservice \
     libjni_burstpmk \
     libjni_wideselfie \
     libjnisingleblur_api \
     libjnistblur_api \
+    libjpegdecoder_ext \
+    libjpegencoder_ext \
     liblivephoto.frc.jni \
     libmmkv_mcs_mcs \
     libmmlistparser \
@@ -266,17 +269,22 @@ PRODUCT_PACKAGES += \
     libolc \
     liboplus-uah-client_system_ext \
     liboplusHeifDecoderImpl \
+    liboplus_10bitHeif \
     liboplus_conscrypt_jni_mcs \
+    liboplus_heifconverter \
     liboplus_imageprocessing \
     liboplus_multimedia_kernel_event \
+    liboplusavenhancements \
     libopluscfgpolicy \
     liboplusdolbyeffect_4.1 \
     liboplusgui_jni \
     liboplusheifwriter \
+    liboplussfplugin_ccodec \
     libortc_so.oplus \
     libsatellite_audio_jni.oplus \
     libsingle_camera_bokeh2_native \
     libsingle_camera_bokeh_native \
+    libskjpegencoderextimpl \
     libsoundtouch.oplus \
     libsoundtouch_jni.oplus \
     libst_mobile \
@@ -296,6 +304,7 @@ PRODUCT_PACKAGES += \
     camera.oemlayer.v2 \
     libOplusSecurity \
     libarcsoft_hdr_couple_api_V2 \
+    liboplus_cfbt \
     libstblur_api \
     AONService \
     RomUpdate \
@@ -314,7 +323,6 @@ PRODUCT_PACKAGES += \
     OplusAppPlatform \
     OplusCamera \
     OplusExSystemService \
-    oplus-services \
     OppoGallery2 \
     PhoneManager \
     StdID \
