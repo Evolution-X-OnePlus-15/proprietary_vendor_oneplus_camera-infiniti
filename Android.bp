@@ -1852,6 +1852,7 @@ cc_prebuilt_library_shared {
                 "libvulkan",
                 "libnativedisplay",
                 "libprotobuf-cpp-lite",
+                "libft2",
                 "libandroidfw",
                 "libcrypto",
                 "libsync",
@@ -2219,7 +2220,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libbinder_ndk",
-                "libbinder",
                 "libc++",
                 "libc",
                 "libm",
@@ -2268,6 +2268,7 @@ cc_prebuilt_library_shared {
                 "libunwindstack",
                 "libpiex",
                 "libexpat",
+                "libft2",
                 "libharfbuzz_subset",
                 "libicu",
                 "libharfbuzz_ng",
@@ -3451,6 +3452,7 @@ android_app_import {
     owner: "oneplus",
     apk: "proprietary/system_ext/priv-app/OplusCamera/OplusCamera.apk",
     overrides: [
+        "Aperture",
         "Camera2",
         "GoogleCameraGo",
     ],
@@ -3790,7 +3792,7 @@ filegroup {
     ],
 }
 
-// BEGIN INFINITI-CAMERA CUSTOM SOONG MODULES
+// BEGIN infiniti-camera CUSTOM SOONG MODULES
 
 dex_import {
     name: "oplus-services",
@@ -3798,11 +3800,4 @@ dex_import {
     system_ext_specific: false,
 }
 
-prebuilt_overlay {
-    name: "aon.frameworkres.overlay.product",
-    src: ":aon_frameworkres_overlay_apk",
-    filename: "aon.frameworkres.overlay.product.apk",
-    product_specific: true,
-}
-
-// END INFINITI-CAMERA CUSTOM SOONG MODULES
+// END infiniti-camera CUSTOM SOONG MODULES
