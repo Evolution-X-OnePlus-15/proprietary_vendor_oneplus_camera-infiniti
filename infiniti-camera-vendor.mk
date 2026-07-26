@@ -306,7 +306,6 @@ PRODUCT_PACKAGES += \
     libmmlistparser \
     libmpbase_system_ext \
     libolc \
-    liboplus-uah-client_system_ext \
     liboplusHeifDecoderImpl \
     liboplus_10bitHeif \
     liboplus_conscrypt_jni_mcs \
