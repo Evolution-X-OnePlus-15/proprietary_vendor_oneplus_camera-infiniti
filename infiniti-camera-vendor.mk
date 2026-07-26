@@ -129,8 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/fb_model/unify_skin_base.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/unify_skin_base.bin \
     vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/fb_model/whiteToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.bin \
     vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/fb_model/whiteToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.png \
-    vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/license_release_fdc.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/license_release_fdc.lic \
-    vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/livephoto_coverenhancer/models/license_release_gallery.lic:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/license_release_gallery.lic \
     vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/pfb_bin/PreCalVarBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalVarBinary.bin \
     vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/pfb_bin/PreHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassBinary.bin \
     vendor/oneplus/infiniti-camera/proprietary/odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassPreBinary.bin \
@@ -166,60 +164,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti-camera/proprietary/odm/firmware/secure_ta/cryptoeng.b07:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/cryptoeng.b07 \
     vendor/oneplus/infiniti-camera/proprietary/odm/firmware/secure_ta/cryptoeng.b08:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/cryptoeng.b08 \
     vendor/oneplus/infiniti-camera/proprietary/odm/firmware/secure_ta/cryptoeng.mdt:$(TARGET_COPY_OUT_ODM)/firmware/secure_ta/cryptoeng.mdt \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libaiunit_sdk_core.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libaiunit_sdk_core.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libnoise.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libnoise.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libopluslog.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libopluslog.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libscan_engine_decode.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libscan_engine_decode.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libscan_engine_detect.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libscan_engine_detect.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libtensorflowlite.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwb_tables_549543368749780587_1.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AIMemory/lib/arm64/libwbkit-seckit3.so:$(TARGET_COPY_OUT_PRODUCT)/app/AIMemory/lib/arm64/libwbkit-seckit3.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libNoTopK.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libNoTopK.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libPOSTPROCESS.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libPOSTPROCESS.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libROTATE90PAD.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libROTATE90PAD.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libaiboost_jni.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libaiboost_jni.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libbitmapUtil.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libbitmapUtil.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libfde.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libfde.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/app/AONService/lib/arm64/libmemoryhelper.so:$(TARGET_COPY_OUT_PRODUCT)/app/AONService/lib/arm64/libmemoryhelper.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/etc/camera/cdr_aging_set.json:$(TARGET_COPY_OUT_PRODUCT)/etc/camera/cdr_aging_set.json \
-    vendor/oneplus/infiniti-camera/proprietary/product/etc/camera/engineer_camera_config.json:$(TARGET_COPY_OUT_PRODUCT)/etc/camera/engineer_camera_config.json \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libc++.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libc++_shared.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libcore_tokenizers.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libcore_tokenizers.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libdmabufheap.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libdmabufheap.so \
-    vendor/oneplus/infiniti-camera/proprietary/product/priv-app/AIUnit/lib/arm64/libopencv_java4.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/AIUnit/lib/arm64/libopencv_java4.so \
-    vendor/oneplus/infiniti-camera/proprietary/system/etc/permissions/privapp-permissions-oplus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oplus.xml \
+    vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/camera/cdr_aging_set.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/cdr_aging_set.json \
+    vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/camera/engineer_camera_config.json:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/engineer_camera_config.json \
     vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/camera/mt105CalibrationCfg.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mt105CalibrationCfg.xml \
     vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/camera/mtCalibrationCfg.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mtCalibrationCfg.xml \
     vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/camera/mwCalibrationCfg.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/camera/mwCalibrationCfg.xml \
     vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \
     vendor/oneplus/infiniti-camera/proprietary/system_ext/etc/permissions/vendor-oplus-hardware-cryptoeng.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor-oplus-hardware-cryptoeng.xml \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/chre_dynamic_sensors.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_aont.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_aont.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_device_orient.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_device_orient.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_diag_filter.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_diag_filter.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_direct_channel.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_direct_channel.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_distance_bound.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_distance_bound.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_flight_md.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_flight_md.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_mag_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_mag_cal.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_offbody_detect_phone.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_offbody_detect_phone.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_rmd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rmd.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_rotv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_rotv.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
-    vendor/oneplus/infiniti-camera/proprietary/vendor/etc/sensors/config/sns_transport_ppe.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_transport_ppe.json \
     vendor/oneplus/infiniti-camera/proprietary/vendor/lib64/qsn1nrt430.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt430.bin \
     vendor/oneplus/infiniti-camera/proprietary/vendor/lib64/qsn1nrt43270.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1nrt43270.bin \
     vendor/oneplus/infiniti-camera/proprietary/vendor/lib64/qsn1rt1690_vga.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn1rt1690_vga.bin \
@@ -240,10 +191,20 @@ PRODUCT_PACKAGES += \
     libPOSTPROCESS_aonservice \
     libROTATE90PAD_aonservice \
     libaiboost_jni_aonservice \
+    libaiunit_framework_aiunit_aiunit \
+    libaiunit_framework_jni_aiunit_aiunit \
+    libaiunit_sdk_core_aimemory_aimemory \
+    libaiunit_sdk_core_aiunit_aiunit \
     libbitmapUtil_aonservice \
+    libc++_aiunit_aiunit \
+    libc++_shared_aiunit_aiunit \
+    libcore_tokenizers_aiunit_aiunit \
+    libdatastore_shared_counter_aiunit_aiunit \
+    libdmabufheap_aiunit_aiunit \
     libfde_aonservice \
     libmemoryhelper_aonservice \
     libnoise_aimemory_aimemory \
+    libopencv_java4_aiunit_aiunit \
     libopluslog_aimemory_aimemory \
     libscan_engine_decode_aimemory_aimemory \
     libscan_engine_detect_aimemory_aimemory \
@@ -306,6 +267,7 @@ PRODUCT_PACKAGES += \
     libmmlistparser \
     libmpbase_system_ext \
     libolc \
+    liboplus-uah-client_system_ext \
     liboplusHeifDecoderImpl \
     liboplus_10bitHeif \
     liboplus_conscrypt_jni_mcs \
@@ -317,7 +279,6 @@ PRODUCT_PACKAGES += \
     liboplusdolbyeffect_4.1 \
     liboplusgui_jni \
     liboplusheifwriter \
-    liboplushwui_jni \
     liboplussfplugin_ccodec \
     libortc_so.oplus \
     libsatellite_audio_jni.oplus \
@@ -340,17 +301,14 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cryptoeng@1.0_odm \
     vendor.oplus.hardware.fido.fido2ca-V1-ndk \
     vendor.oplus.hardware.fido.fidoca-V1-ndk \
-    libfido2_factory \
-    libfido_factory \
     camera.oemlayer.v2 \
     libOplusSecurity \
     libarcsoft_hdr_couple_api_V2 \
     liboplus_cfbt \
     libstblur_api \
-    ExtensionsService \
-    AIMemory \
     AONService \
     RomUpdate \
+    AIMemory \
     AIUnit \
     FileManager \
     MCS \
@@ -381,10 +339,20 @@ PRODUCT_PACKAGES += \
     product_app_AONService_lib_arm64_libPOSTPROCESS_so \
     product_app_AONService_lib_arm64_libROTATE90PAD_so \
     product_app_AONService_lib_arm64_libaiboost_jni_so \
+    product_priv-app_AIUnit_lib_arm64_libaiunit_framework_so \
+    product_priv-app_AIUnit_lib_arm64_libaiunit_framework_jni_so \
+    product_priv-app_AIMemory_lib_arm64_libaiunit_sdk_core_so \
+    product_priv-app_AIUnit_lib_arm64_libaiunit_sdk_core_so \
     product_app_AONService_lib_arm64_libbitmapUtil_so \
+    product_priv-app_AIUnit_lib_arm64_libc++_so \
+    product_priv-app_AIUnit_lib_arm64_libc++_shared_so \
+    product_priv-app_AIUnit_lib_arm64_libcore_tokenizers_so \
+    product_priv-app_AIUnit_lib_arm64_libdatastore_shared_counter_so \
+    product_priv-app_AIUnit_lib_arm64_libdmabufheap_so \
     product_app_AONService_lib_arm64_libfde_so \
     product_app_AONService_lib_arm64_libmemoryhelper_so \
     product_priv-app_AIMemory_lib_arm64_libnoise_so \
+    product_priv-app_AIUnit_lib_arm64_libopencv_java4_so \
     product_priv-app_AIMemory_lib_arm64_libopluslog_so \
     product_priv-app_AIMemory_lib_arm64_libscan_engine_decode_so \
     product_priv-app_AIMemory_lib_arm64_libscan_engine_detect_so \

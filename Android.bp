@@ -209,6 +209,86 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libaiunit_framework_aiunit_aiunit",
+    stem: "libaiunit_framework_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libaiunit_framework_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaiunit_framework_jni_aiunit_aiunit",
+    stem: "libaiunit_framework_jni_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libaiunit_framework_jni_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaiunit_sdk_core_aimemory_aimemory",
+    stem: "libaiunit_sdk_core_aimemory",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libaiunit_sdk_core_aimemory.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaiunit_sdk_core_aiunit_aiunit",
+    stem: "libaiunit_sdk_core_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libaiunit_sdk_core_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbitmapUtil_aonservice",
     stem: "libbitmapUtil",
     owner: "oneplus",
@@ -219,6 +299,106 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/product/lib64/libbitmapUtil.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libc++_aiunit_aiunit",
+    stem: "libc++_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libc++_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libc++_shared_aiunit_aiunit",
+    stem: "libc++_shared_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libc++_shared_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcore_tokenizers_aiunit_aiunit",
+    stem: "libcore_tokenizers_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libcore_tokenizers_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdatastore_shared_counter_aiunit_aiunit",
+    stem: "libdatastore_shared_counter_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libdatastore_shared_counter_aiunit.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdmabufheap_aiunit_aiunit",
+    stem: "libdmabufheap_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libdmabufheap_aiunit.so",
             ],
         },
     },
@@ -279,6 +459,26 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/product/lib64/libnoise_aimemory.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    product_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libopencv_java4_aiunit_aiunit",
+    stem: "libopencv_java4_aiunit",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/product/lib64/libopencv_java4_aiunit.so",
             ],
         },
     },
@@ -747,6 +947,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -1477,6 +1678,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -1913,6 +2115,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
     system_ext_specific: true,
 }
@@ -1994,6 +2197,37 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     check_elf_files: false,
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus-uah-client_system_ext",
+    stem: "liboplus-uah-client",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/liboplus-uah-client.so",
+            ],
+            shared_libs: [
+                "vendor.oplus.hardware.urcc-V1-ndk",
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libbinder_ndk",
+                "libbinder",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
 }
@@ -2276,38 +2510,6 @@ cc_prebuilt_library_shared {
                 "libbase",
                 "libjpeg",
                 "libjnigraphics",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "liboplushwui_jni",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/liboplushwui_jni.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libandroid",
-                "libandroid_runtime",
-                "libhwui",
-                "libandroidfw",
-                "liblog",
-                "libharfbuzz_ng",
-                "libminikin",
                 "libc++",
                 "libc",
                 "libm",
@@ -2905,44 +3107,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libfido2_factory",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/odm/lib/libfido2_factory.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libfido_factory",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/odm/lib/libfido_factory.so",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "camera.oemlayer.v2",
     owner: "oneplus",
     strip: {
@@ -3112,28 +3276,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-    name: "ExtensionsService",
-    owner: "oneplus",
-    apk: "proprietary/system/app/ExtensionsService/ExtensionsService.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-}
-
-android_app_import {
-    name: "AIMemory",
-    owner: "oneplus",
-    apk: "proprietary/product/app/AIMemory/AIMemory.apk",
-    preprocessed: true,
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-}
-
-android_app_import {
     name: "AONService",
     owner: "oneplus",
     apk: "proprietary/product/app/AONService/AONService.apk",
@@ -3148,11 +3290,23 @@ android_app_import {
     name: "RomUpdate",
     owner: "oneplus",
     apk: "proprietary/product/app/RomUpdate/RomUpdate.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
+android_app_import {
+    name: "AIMemory",
+    owner: "oneplus",
+    apk: "proprietary/product/priv-app/AIMemory/AIMemory.apk",
     preprocessed: true,
     presigned: true,
     dex_preopt: {
         enabled: false,
     },
+    privileged: true,
     product_specific: true,
 }
 
@@ -3463,10 +3617,73 @@ install_symlink {
 }
 
 install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libaiunit_framework_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libaiunit_framework.so",
+    symlink_target: "/product/lib64/libaiunit_framework_aiunit.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libaiunit_framework_jni_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so",
+    symlink_target: "/product/lib64/libaiunit_framework_jni_aiunit.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIMemory_lib_arm64_libaiunit_sdk_core_so",
+    product_specific: true,
+    installed_location: "priv-app/AIMemory/lib/arm64/libaiunit_sdk_core.so",
+    symlink_target: "/product/lib64/libaiunit_sdk_core_aimemory.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libaiunit_sdk_core_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so",
+    symlink_target: "/product/lib64/libaiunit_sdk_core_aiunit.so",
+}
+
+install_symlink {
     name: "product_app_AONService_lib_arm64_libbitmapUtil_so",
     product_specific: true,
     installed_location: "app/AONService/lib/arm64/libbitmapUtil.so",
     symlink_target: "/product/lib64/libbitmapUtil.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libc++_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libc++.so",
+    symlink_target: "/product/lib64/libc++_aiunit.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libc++_shared_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libc++_shared.so",
+    symlink_target: "/product/lib64/libc++_shared_aiunit.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libcore_tokenizers_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libcore_tokenizers.so",
+    symlink_target: "/product/lib64/libcore_tokenizers_aiunit.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libdatastore_shared_counter_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so",
+    symlink_target: "/product/lib64/libdatastore_shared_counter_aiunit.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libdmabufheap_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libdmabufheap.so",
+    symlink_target: "/product/lib64/libdmabufheap_aiunit.so",
 }
 
 install_symlink {
@@ -3488,6 +3705,13 @@ install_symlink {
     product_specific: true,
     installed_location: "priv-app/AIMemory/lib/arm64/libnoise.so",
     symlink_target: "/product/lib64/libnoise_aimemory.so",
+}
+
+install_symlink {
+    name: "product_priv-app_AIUnit_lib_arm64_libopencv_java4_so",
+    product_specific: true,
+    installed_location: "priv-app/AIUnit/lib/arm64/libopencv_java4.so",
+    symlink_target: "/product/lib64/libopencv_java4_aiunit.so",
 }
 
 install_symlink {
