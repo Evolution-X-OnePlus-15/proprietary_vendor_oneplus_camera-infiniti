@@ -182,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/infiniti-camera/proprietary/vendor/lib64/qsn3all.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/qsn3all.bin
 
 PRODUCT_PACKAGES += \
-    liboplusmmdebug \
     vendor.oplus.hardware.cameraextension-V1-ndk \
     vendor.oplus.hardware.cameraextension@1.0 \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk_system \
@@ -243,7 +242,6 @@ PRODUCT_PACKAGES += \
     libapssuspend-jni.oplus \
     libarcsoft_panorama_burstcapture \
     libarcsoft_wideselfie \
-    libatlasservice \
     libbinauralrenderer_wrapper.qti \
     libbsproxy \
     libcsextimpl \
@@ -253,28 +251,17 @@ PRODUCT_PACKAGES += \
     libheytap_mcs_cipheralgo_fixed_mcs \
     libhoaeffects.qti \
     libhoaeffects_csim \
-    libhwuiextimpl \
-    libiatlasservice \
-    libimmlistservice \
     libjni_burstpmk \
     libjni_wideselfie \
     libjnisingleblur_api \
     libjnistblur_api \
-    libjpegdecoder_ext \
-    libjpegencoder_ext \
     liblivephoto.frc.jni \
     libmmkv_mcs_mcs \
-    libmmlistparser \
     libmpbase_system_ext \
-    libolc \
-    liboplusHeifDecoderImpl \
-    liboplus_10bitHeif \
+    liboplus-uah-client_system_ext \
     liboplus_conscrypt_jni_mcs \
     liboplus_heifconverter \
-    liboplus_imageprocessing \
-    liboplus_multimedia_kernel_event \
     liboplusavenhancements \
-    libopluscfgpolicy \
     liboplusdolbyeffect_4.1 \
     liboplusgui_jni \
     liboplusheifwriter \
@@ -283,7 +270,6 @@ PRODUCT_PACKAGES += \
     libsatellite_audio_jni.oplus \
     libsingle_camera_bokeh2_native \
     libsingle_camera_bokeh_native \
-    libskjpegencoderextimpl \
     libsoundtouch.oplus \
     libsoundtouch_jni.oplus \
     libst_mobile \
@@ -303,7 +289,6 @@ PRODUCT_PACKAGES += \
     camera.oemlayer.v2 \
     libOplusSecurity \
     libarcsoft_hdr_couple_api_V2 \
-    liboplus_cfbt \
     libstblur_api \
     AONService \
     RomUpdate \
